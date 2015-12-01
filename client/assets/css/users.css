@@ -1,0 +1,56 @@
+.user-table, .user-table-row, .user-table-column {
+   border: 1px solid black;
+   border-collapse:collapse;
+}
+
+.user-table {
+  margin-left: 20px;
+  max-width: 600px;
+  margin-top: 20px;
+  float: left;
+  
+}
+
+.user-table-row {
+  width: 200px;
+}
+
+.user-table-column {
+  padding-left: 3px;
+  height: 30px;
+}
+
+.center {
+  padding: 0px;
+  text-align: center;
+}
+
+.user-table-header {
+  background-color: #66B3F1;
+}
+.user-table-header td{
+  width: 200px;
+  color: white;
+  height: 30px;
+  text-align: center;
+
+}
+
+.user-form-container {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 260px;
+  height: 400px;
+  float: left;
+}
+
+.user-form-error-text {
+  color: red;
+  font-size: 14px;
+  min-height: 17px;
+  margin-bottom: 5px;
+}
+
+#userForm{
+  width: 297px;
+}
